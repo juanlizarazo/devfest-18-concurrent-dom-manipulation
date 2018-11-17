@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>With web worker</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="shortcut icon" href="about:blank" />
+
+  <script src="../assets/js/worker-dom/index.mjs" type="module"></script>
+</head>
+<body>
+  <div class="container" src="../assets/js/demo.js" id="use-web-worker">
+    <img class="proto mover" src="../assets/img/logo.png"/>
+  </div>
+
+  <script type="module">
+    import { upgradeElement } from '../assets/js/worker-dom/index.mjs';
+    upgradeElement(document.getElementById('use-web-worker'), '../assets/js/worker-dom/worker.mjs');
+  </script>
+</body>
+</html>

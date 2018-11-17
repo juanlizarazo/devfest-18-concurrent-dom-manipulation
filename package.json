@@ -1,0 +1,15 @@
+{
+  "name": "gdc-devfest18",
+  "version": "1.0.0",
+  "description": "Demo for devfest18 utah session",
+  "main": "index.js",
+  "repository": "git@bitbucket.org:juanlizarazo/gdc-devfest18.git",
+  "author": "Juan Lizarazo",
+  "license": "MIT",
+  "scripts": {
+    "start": "http-server"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
