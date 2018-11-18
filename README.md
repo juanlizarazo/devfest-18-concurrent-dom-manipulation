@@ -10,3 +10,12 @@ npm install && npm start
 Then visit the url and port shown in the console.
 
 
+## Links
+
+Slides: https://speakerdeck.com/juanlizarazo
+
+The AMP Project ❤⚡: https://www.ampproject.org/
+
+worker-dom: https://github.com/ampproject/worker-dom
+
+Javascript concurrency and the DOM: https://www.youtube.com/watch?v=XyVQfqmx2CI 
