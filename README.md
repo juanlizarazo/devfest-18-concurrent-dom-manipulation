@@ -9,6 +9,9 @@ npm install && npm start
 
 Then visit the url and port shown in the console.
 
+Or see live at:
+https://www.juanlizarazo.com/devfest-18-concurrent-dom-manipulation/
+
 
 ## Links
 
